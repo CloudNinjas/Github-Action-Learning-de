@@ -10,7 +10,8 @@ Zunächst ein Screenshot des UIs der Standard Hello World Action von github.com:
 
 Es sit außerdem möglich kleine Icons, welche sen Status der letzten Ausführung der Action anzeigen zum Repository hinzuzufügen (definable from which branch or event/trigger)
 
-![Hello World](https://github.com/CloudNinjas/Github-Action-Learning-de/actions/workflows/hello_world.yml/badge.svg)
+![Hello World](https://github.com/CloudNinjas/Github-Action-Learning-de/actions/workflows/hellow_world.yml/badge.svg)
+
 ## Trigger ON Part
 
 BLABLUB
