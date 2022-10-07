@@ -17,7 +17,7 @@ Diese Lerneinheit ist eine Einfürung in die Welt von Github Action und Workflow
 [Tools](../main/Kapitel%204:%20Tools/Tools.md)
 
 ## Kapitel 5: Infrastructure deployment (terraform)
-[Infrastructure deployment](../main/Kapitel%205:%20Infrastructure%20deployment/Infrastructure_deployment.md)
+[Infrastructure deployment](../main/Kapitel%205:%20Infrastructure%20Deployment/Infrastructure_deployment.md)
 
 ## Kapitel 6: Enterprise Usage
 [Enterprise Usage: Scenario 1](../main/Kapitel%206:%20Enterprise%20Usage/Scenario_1.md)
