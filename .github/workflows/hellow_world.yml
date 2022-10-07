@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Bestimmt, wann der workflow ausgeführt wird
+on:
+  # Führt den workflow bei push oder pull request auf dem "main" Branch aus
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Ermöglicht es, den workflow manuell zu starten
+  workflow_dispatch:
+
+# Eine Ausführung besteht aus einem oder mehreren jobs, die nacheinender oder parallel ausgeführt werden 
+jobs:
+  # Ein job mit einer action namens "build"
+  build:
+    # Der runner, der zur ausführung de jobs genutzt werden soll
+    runs-on: ubuntu-latest
+
+    # Eine Sequenz von Aufgaben, aus denen der job besteht
+    steps:
+      # Check-out des repository unter $GITHUB_WORKSPACE, um es dem job zugänglich zu machen
+      - uses: actions/checkout@v3
+
+      # Führt einen einzeiligen Shell-Befehl aus
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Führt mehrere Shell-Befehle aus
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
