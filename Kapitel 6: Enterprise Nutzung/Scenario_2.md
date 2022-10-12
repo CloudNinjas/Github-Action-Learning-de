@@ -14,4 +14,4 @@ Das bedeutet, wir nutzen Pipelines um Komponenten auf eine standartisierte Weise
 
 ### Idea
 
-![Architecture](../Chapter%206:%20Enterprise%20Usage/InfrastructureScenario2.drawio.png)
+![Architecture](../Kapitel%206:%20Enterprise%20Nutzung/InfrastructureScenario2.drawio.png)
