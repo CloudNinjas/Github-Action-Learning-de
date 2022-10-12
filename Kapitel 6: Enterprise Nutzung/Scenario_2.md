@@ -1,24 +1,16 @@
 # Infrastructure Factory
 
-In big cooperations there is not one team that can mange everything alone. Rather multiple teams work towards the same goal. With infrastructure factory we define the deployment of multiple similar resources in multiple cloud environments or in one global cloud environment. 
+In großen Unternehmen giebt es nicht ein Team, das alles alleine verwaltet. Vielmehr giebt es viele kleine Teams, die gemeinsam am gleichen Ziel arbeiten. Daher iste es einfacher Infrastruktur Komponenten einmal zu definieren und int verschiedenen Szenarien wieder zu verwenden.
 
-To make an example: 
-It is more efficient to define one infrastructure component and to use the similar one in multiple scenarios. We can have a look at for example a simple database. If you deploy a database to a cloud environment you have similar requirements. The database needs to be secured in some fashion (e.g., encryption on rest), it needs to have access from a backend application, or it has to comply to general principals defined in and from outside of the the cooperation.
+Hier ein Beispiel:
+Angenommen wier wollen eine einfache Datenbank. Für eine Datenbank in der Cloud giebt es immer ähnliche Ansprüche. Die Datenbank muss auf eine Weise sicher sein (z.b. encryption on rest), sie muss erreichbar sein von einer backend Anwendung, und sie muss firmen in- und externen Standards genügen.
 
+Eine solche Infrastruktur Komponente will und muss man nicht mehrfach definieren.
 
-This infrastructure component you do not want to define multiple times but rather once.
+## Setting it up
 
-## Sting it up
-
-As already stated in previous chapters we can combine an DevOps mindset with deploying infrastructure. 
-This means we use pipelines to deploy the single components in a standardized procedure. 
-
-### Infrastructure as Code
-
-
-### Pipelines
-
-We use pipelines to create (copy and update files) 
+Wie bereits erwähnt iste es möglich ein DevOps Mindset mit Infrastrukturdeployment zu verbinden.
+Das bedeutet, wir nutzen Pipelines um Komponenten auf eine standartisierte Weise zu deployen.
 
 ### Idea
 
