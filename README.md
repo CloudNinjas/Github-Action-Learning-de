@@ -20,9 +20,9 @@ Diese Lerneinheit ist eine Einfürung in die Welt von Github Action und Workflow
 [Infrastructure deployment](../main/Kapitel%205:%20Infrastructure%20Deployment/Infrastructure_deployment.md)
 
 ## Kapitel 6: Enterprise Usage
-[Enterprise Nutzung: Scenario 1](../main/Kapitel%206:%20Enterprise%20Nutzung/Scenario_1.md)
+[Enterprise Nutzung: Scenario 1](../main/Kapitel%206:%20Enterprise%20Nutzung/Szenario_1.md)
 
-[Enterprise Nutzung: Scenario 2](../main/Kapitel%206:%20Enterprise%20Nutzung/Scenario_2.md)
+[Enterprise Nutzung: Scenario 2](../main/Kapitel%206:%20Enterprise%20Nutzung/Szenario_2.md)
 
 ## Beispiele
  - [Beispiele](../main/Examples/Examples.md)
