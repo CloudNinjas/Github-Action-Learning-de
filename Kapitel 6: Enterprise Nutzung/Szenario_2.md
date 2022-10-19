@@ -9,7 +9,7 @@ Eine solche Infrastruktur Komponente will und muss man nicht mehrfach definieren
 
 ## Setting it up
 
-Wie bereits erwähnt iste es möglich ein DevOps Mindset mit Infrastrukturdeployment zu verbinden.
+Wie bereits erwähnt ist es möglich ein DevOps Mindset mit Infrastrukturdeployment zu verbinden.
 Das bedeutet, wir nutzen Pipelines um Komponenten auf eine standartisierte Weise zu deployen.
 
 ### Idea
