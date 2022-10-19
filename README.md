@@ -25,5 +25,5 @@ Diese Lerneinheit ist eine Einfürung in die Welt von Github Action und Workflow
 [Enterprise Nutzung: Scenario 2](../main/Kapitel%206:%20Enterprise%20Nutzung/Szenario_2.md)
 
 ## Beispiele
- - [Beispiele](../main/Examples/Examples.md)
+ - [Beispiele](../main/Beispiele/beispiele.md)
  - [Liste mit coolen Tools](https://github.com/sdras/awesome-actions)
