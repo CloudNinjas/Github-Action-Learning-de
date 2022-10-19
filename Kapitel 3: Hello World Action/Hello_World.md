@@ -14,12 +14,12 @@ Es sit außerdem möglich kleine Icons, welche sen Status der letzten Ausführun
 
 ## Der ON Block
 
-Dieser Block defieniert, wann die Action ausgeführt werden soll. Die Optionen reichen von Ereignissen in Git (z.B. pull, push auf einen bestimmten Branch) bis hin zur manuellen Ausführung.(Actions können nur via dem Actions-Tab manuell ausgeführt werden, falls ein eiterer Trigger auf dem selben Branch existiert.)
+Dieser Block defieniert, wann die Action ausgeführt werden soll. Die Optionen reichen von Ereignissen in Git (z.B. pull, push auf einen bestimmten Branch) bis hin zur manuellen Ausführung.(Actions können nur via dem Actions-Tab manuell ausgeführt werden, falls ein weiterer Trigger auf dem selben Branch existiert.)
 
 ## Der JOBS Block
 In diesem Block wird festgelegt, was die Action machen soll. Zu Beginn wird bestimmt welcher Runner die Action ausführen soll, beispielsweise ein self-hosted Runner oder eine spezielles Image der von github.com gehosteten Runner. Eine Action kann aus eienm oder mehreren Jobs bestehen, die parallel ausgeführt werden.
 
-zu jedem Job gehört ein steps-Block, der festlegt, welche Workflow-Schritte wir ausführen wollen. Es ist möglich alles von Grund auf selbst zu definieren, oder vordefinierte  Workflow-Schritte aus dem [Actions Repository](https://github.com/actions). In Github Enterprise kann man öffentliche Workflow-Schritte whitelisten.In unserem Beispiel wird zunächst die [Checkout Action](https://github.com/actions/checkout) verwendet, um das aktuelle Repository für den Rest der des Scripts verfügbar zu machen. Danach nutzen wir den run Befehl um erst eien einzeilges und dann ein mehrzeilige Shellscript auszuführen.
+Zu jedem Job gehört ein steps-Block, der festlegt, welche Workflow-Schritte wir ausführen wollen. Es ist möglich alles von Grund auf selbst zu definieren, oder vordefinierte  Workflow-Schritte aus dem [Actions Repository](https://github.com/actions). In Github Enterprise kann man öffentliche Workflow-Schritte whitelisten.In unserem Beispiel wird zunächst die [Checkout Action](https://github.com/actions/checkout) verwendet, um das aktuelle Repository für den Rest der des Scripts verfügbar zu machen. Danach nutzen wir den run Befehl um erst eien einzeilges und dann ein mehrzeilige Shellscript auszuführen.
 
 Was alles möglich ist mit Actions hängt ganz davon ab, was man braucht. Von simplen Begrüßungen für neue Contributors bis hin zu komplexen Setups, die viele externe Systeme nutzen ist alles im Bereichj des Möglichen. Alles in allem ist Github Actions ein einfaches aber mächtiges CI/CD tool, das leicht zu nutzen ist. 
 
