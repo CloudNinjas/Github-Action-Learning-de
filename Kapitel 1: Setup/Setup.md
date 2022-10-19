@@ -16,7 +16,7 @@ Github Actions und Workflows sind ein einfacher Weg, um Inhalte eines Git-Reposi
 
 ### Github-hosted runners
 
-Standard Runner für fast alle Anwendungen, die keine speziellen Tools benötigen und nicht in einem komerziellen Kontext mit eröhten Sicherheitsanforderungen sind.  (nur verfügbar auf github.com).
+Github.com stellt Standard Runner für fast alle Anwendungen, die keine speziellen Tools benötigen und nicht in einem komerziellen Kontext mit eröhten Sicherheitsanforderungen sind, zur Verfügung.  (nur verfügbar auf github.com).
 
  - OS: ubuntu, windows and macos (immer neueste Version)
  - Hardware: 2core, 7GB RAM, 14 GB SSD
@@ -25,7 +25,7 @@ Standard Runner für fast alle Anwendungen, die keine speziellen Tools benötige
 
 ### Self-hosted runners
 
-Self-hosted Runner werden von Ihnen selbst verwaltet. Um self-hosted Runner nutzen zu können, müssen diese explizit zu ihrem Repository oder Organisation hinzugefügt werden. Mehr dazu hier: [Adding self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners). Mann kann diesen Prozess natürlich auch automatisieren, zum Beispiel so: [Docker Image](https://hub.docker.com/repository/docker/vexx662/github-action-runner-proxy). Diese Art von Runner ist die einzige Möglichkeit Actions in  Github Enterprise zu nutzen. Für fast alle Nutzungsszenarien ist eine einfache VM mit den vorinstallierten tools völlig ausreichend, nur in Szenarien mit vielen parallelen Ausführungen mit langer Laufzeit ist es sinnvoll größer zu skalieren.
+Self-hosted Runner werden von Ihnen selbst verwaltet. Um self-hosted Runner nutzen zu können, müssen diese explizit zu ihrem Repository oder ihrer Organisation hinzugefügt werden. Mehr dazu hier: [Adding self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners). Mann kann diesen Prozess natürlich auch automatisieren, zum Beispiel so: [Docker Image](https://hub.docker.com/repository/docker/vexx662/github-action-runner-proxy). Diese Art von Runner ist die einzige Möglichkeit Actions in  Github Enterprise zu nutzen. Für fast alle Nutzungsszenarien ist eine einfache VM mit den vorinstallierten tools völlig ausreichend, nur in Szenarien mit vielen parallelen Ausführungen mit langer Laufzeit ist es sinnvoll größer zu skalieren.
 
  - OS: Alle (Linux highly advised!)
  - Hardware: abhängig von der Anwendung (so klein wie möglich) (2 core, 4GB RAM)
